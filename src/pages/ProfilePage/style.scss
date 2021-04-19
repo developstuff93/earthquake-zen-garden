@@ -1,0 +1,21 @@
+@import "sass/_includes.scss";
+
+.profile {
+  h3 {
+    text-align: center;
+  }
+  &-details {
+    display: flex;
+
+    &__image {
+      width: 150px;
+      height: 150px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    &__meta {
+      width: 310px;
+    }
+  }
+}
